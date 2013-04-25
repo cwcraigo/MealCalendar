@@ -1,0 +1,8 @@
+*DBconn*
+*.json
+*.jpg
+*.jpeg
+*.DS_Store
+*.png
+*.txt
+lib/bootstrap/*
