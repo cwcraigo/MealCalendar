@@ -1,0 +1,263 @@
+body
+{
+    background-color: #3E3F43;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.unhide
+{
+    display: block;
+}
+
+.meals
+{
+    
+}
+
+#calendar
+{
+    padding: 0.25em;
+    background-color: white;
+}
+
+/* Styling for the title (Month and Year) of the calendar */
+div.title 
+{
+    font: x-large Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 40px;
+    background-color: white;
+    color: #6D292A;
+}
+
+/* Styling for the overall table */
+table 
+{
+    font: 100% Verdana, Arial, Helvetica, sans-serif;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Styling for the column headers (days of the week) */
+th 
+{
+    padding: 0 0.5em;
+    text-align: center;
+    background-color: #4E5647;
+    color:white;
+}
+
+/* Styling for the individual cells (days) */
+td  
+{     
+    font-size: smaller;
+    padding: 0.25em 0.25em;   
+    width: 14%; 
+    height: 80px;
+    text-align: right;
+    vertical-align: top;
+}
+
+/* Styling for the date numbers */
+.date
+{     
+    font-size: large;
+    padding: 0.25em 0.25em;   
+    text-align: right;
+    vertical-align: top;
+}
+
+td p
+{
+    font-size: smaller;
+    text-align: left;
+}
+
+#pick_date
+{
+    padding: 0.25em;
+    text-align: center;
+    background-color: white;
+}
+
+#nav_links
+{
+    list-style: none;
+    margin-left: 0;
+}
+
+#nav_links li
+{
+    display: inline;
+}
+
+#nav_links li a
+{
+    color: white;
+    text-decoration: none;
+    padding-left: .2em;
+    padding-right: .2em;
+}
+
+#header
+{
+    background-color: #6D292A;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: solid thin black;
+}
+
+#main_title
+{
+    font: x-large Palatino, Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+#welcome 
+{
+    float: right;
+    padding-right: 5%;
+    color: white;
+}
+
+#welcome a
+{
+   color: white;
+   text-decoration: none;
+}
+
+#login
+{
+    background-color: white;
+}
+
+#login p
+{
+    border: solid thin black;
+    border-top: 0;
+    border-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1%;
+    text-align: center;
+}
+
+#register
+{
+    border: solid thin black;
+    border-top: 0;
+    padding: 0.25em;
+    text-align: center;
+}
+
+footer
+{
+    height: 40px;
+}
+
+#content
+{
+    background-color: white;
+    border: 1px solid black;
+    border-top: 0;
+    padding: 0.25em;
+    text-align: center;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+#line
+{
+    color: black;
+}
+
+#p_suggest
+{
+    position: absolute;
+    width: 200px;
+    right: 5%;
+}
+
+#category
+{
+    display: list-item;
+    text-align: left;
+    list-style-type: none;
+}
+
+.sub_category
+{
+    display: list-item;
+    list-style-type: none;
+}
+
+.errors
+{
+    
+}
+
+#left_section
+{
+    margin-left: 4%;
+    float: left;
+}
+
+#right_section
+{
+    float: right;
+    clear: right;
+    width: 50%;
+    margin-right: 4%;
+}
+
+#lower_section
+{
+    clear: both;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+.drop_down
+{
+    cursor: pointer;
+    list-style-type: disc;
+}
+
+.drop_down1
+{
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.drop_down2
+{
+    cursor: pointer;
+    list-style-type: square;
+}
+
+#footer_div
+{
+    text-align: center;
+}
+
+.footer_links
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.big_num
+{
+    font-size: 18pt;
+    color: #6D292A;
+}
